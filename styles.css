@@ -61,7 +61,10 @@ ul li:hover .hover-div {
     border-radius: 4%;
     border: 1px solid black;
     font-size: large;
+    font-family: Garamond, serif;
 }
+
+
 
 .line {
     height:1px;
@@ -84,6 +87,10 @@ ul li:hover .hover-div {
     left: 30%;
 }
 
+#in-em:focus {
+    border: 3px solid #555;
+  }
+
 .line1{
         height:1px;
         width:300px;
@@ -99,11 +106,27 @@ ul li:hover .hover-div {
     left: 20%;
 }
 
+
 #in-pass {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius:4px;
+    font-size: 16px;
+    backdrop-filter: blur(4px);
+    background-image:url("passw-icon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+
     position: absolute;
     top: 30%;
-    left: 35%;
+    left: 30%;
+    
 }
+#in-pass:focus {
+    border: 3px solid #555;
+  }
+
 
 .btn-login {
     position: absolute;
