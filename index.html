@@ -9,28 +9,35 @@
 <body>
     <nav class = "nav">
     <ul>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contacts</a></li>
       </ul>
     </nav>
     <div class = "login-container">
-        <label for = "email"><b>Username</b></label>
-        <input type = "email" placeholder="Enter email" required>
-    
-        <label for = "psw"><b>Password</b></label>
-        <input type = "password" placeholder = "Enter password" required>
 
-        <button type = "submit">Login</button>
-        <label>
-            <input type = "checkbox" checked = "checked" name = "remember"> Remember me</input>
-        </label>  
-    </div>
+        <label class = "label-email" for = "email"><b>Email</b></label>
+        <input id = "in-em" type = "email" placeholder="Enter email" required>
     
-    <div class = "container" style = "background-color: #f1f1f1">
+        <div class = "line"></div>
+
+        <label  class = "label-pass" for = "psw"><b>Password</b></label>
+        <input id = "in-pass" type = "password" placeholder = "Enter password" required>
+
+        <div class = "line1"></div>
+
+        <button class = "btn-login" type = "submit">Login</button>
+        <label>
+            <input id = "in-check" type = "checkbox" checked = "checked" name = "remember"> Remember me</input>
+        </label>  
+
+    
+    
+    <div class = "forg-pass-container" style = "background-color: #f1f1f1">
         <button type = "button" class = "cancelBtn">Cancel</button>
         <span class = "psw">Forgotten <a href = "#">password?</a></span>
     </div>
+</div>
     
     <script src = "app.js"></script>
 </body>
