@@ -58,6 +58,12 @@ ul li:hover .hover-div {
     font-family: Garamond, serif;
 }
 
+h1 {
+    position: absolute;
+    left:40%;
+    top:36%;
+}
+
 #user {
     position: absolute;
     left: 20%;
