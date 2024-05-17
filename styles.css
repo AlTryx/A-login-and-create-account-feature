@@ -28,8 +28,6 @@ ul li a {
     font-size:large;
 }
 
-
-
 .hover-div{ 
     background: rgb(74, 74, 182);
     height: 2px;
@@ -44,10 +42,6 @@ ul li:hover .hover-div {
     width: 100%;
 
 }
-
-
-
-
 
 .login-container {
     position: fixed;
@@ -64,7 +58,13 @@ ul li:hover .hover-div {
     font-family: Garamond, serif;
 }
 
-
+#user {
+    position: absolute;
+    left: 20%;
+    top:5%;
+    width: 300px;
+    height:180px;
+}
 
 .line {
     height:1px;
@@ -103,12 +103,12 @@ ul li:hover .hover-div {
   }
 
 .line1{
-        height:1px;
-        width:300px;
-        background-color: rgb(74, 74, 182);
-        position:absolute;
-        top: 66%;
-        left:20%;
+    height:1px;
+    width:300px;
+    background-color: rgb(74, 74, 182);
+    position:absolute;
+    top: 66%;
+    left:20%;
 }
 
 .label-pass {
@@ -116,7 +116,6 @@ ul li:hover .hover-div {
     top: 30%;
     left: 20%;
 }
-
 
 #in-pass {
     box-sizing: border-box;
@@ -134,32 +133,38 @@ ul li:hover .hover-div {
     left: 25%;
     
 }
+
 #in-pass:focus {
     border: 3px solid #555;
   }
 
-
 .btn-login {
+    background-color: rgb(74, 74, 182);
     position: absolute;
-    top: 80%;
+    top: 86.6%;
     left:20%;
-    
+    border:aliceblue 2px solid;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    font-size: medium;
+    font-weight: bold;
+    color:aliceblue;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
 
+.btn-login:hover {
+    background-color:aliceblue;
+    color: rgb(74, 74, 182);
+    border-color: rgb(74, 74, 182);
+    transform: scale(1.1);
 }
 
 #in-check{
     position: absolute;
 
+
 }
 
-.forg-pass-container {
-    border:#555 1px solid;
-    border-radius:10px;
-    position: absolute;
-    top: 85%;
-    left: 60%;
-    right: 10%;
-}
 .line2 {
     height:1px;
     width:300px;
@@ -169,5 +174,33 @@ ul li:hover .hover-div {
     left:20%;
 }
 
+.line3 {
+    height:1px;
+    width:150px;
+    background-color: rgb(74, 74, 182);
+    position:absolute;
+    top: 54%;
+    left:13%;
+}
 
+.forg-pass-container {
+    background-color: aliceblue;
+    border:rgb(74, 74, 182) 2px solid;
+    border-radius:10px;
+    position: absolute;
+    top: 85%;
+    left: 37%;
+    right: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.forg-pass-container input {
+    left: 50%;
+    text-align: center;
+}
+
+.forg-pass-container .psw{
+    text-align: end;
+}
 
