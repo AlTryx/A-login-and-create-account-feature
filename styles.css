@@ -71,7 +71,7 @@ ul li:hover .hover-div {
     width:300px;
     background-color: rgb(74, 74, 182);
     position:absolute;
-    top: 27.5%;
+    top: 51%;
     left:20%;
 }
 
@@ -82,9 +82,20 @@ ul li:hover .hover-div {
 }
 
 #in-em {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius:4px;
+    font-size: 16px;
+    backdrop-filter: blur(4px);
+    background-image:url('mail-outline.svg');
+    background-size:10%;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 40px;
     position: absolute;
-    top: 20%;
-    left: 30%;
+    top: 55%;
+    left: 25%;
+    
 }
 
 #in-em:focus {
@@ -96,7 +107,7 @@ ul li:hover .hover-div {
         width:300px;
         background-color: rgb(74, 74, 182);
         position:absolute;
-        top: 37.5%;
+        top: 66%;
         left:20%;
 }
 
@@ -113,14 +124,14 @@ ul li:hover .hover-div {
     border-radius:4px;
     font-size: 16px;
     backdrop-filter: blur(4px);
-    background-image:url("passw-icon.png");
-    background-position: 10px 10px;
+    background-image:url('mail-outline.svg');
+    background-size:10%;
+    background-position: 5px;
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-
+    padding: 6px 20px 6px 40px;
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 70%;
+    left: 25%;
     
 }
 #in-pass:focus {
@@ -130,15 +141,33 @@ ul li:hover .hover-div {
 
 .btn-login {
     position: absolute;
-    top: 40%;
-    left:60%
+    top: 80%;
+    left:20%;
+    
+
 }
 
 #in-check{
+    position: absolute;
 
 }
 
 .forg-pass-container {
-
+    border:#555 1px solid;
+    border-radius:10px;
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    right: 10%;
 }
+.line2 {
+    height:1px;
+    width:300px;
+    background-color: rgb(74, 74, 182);
+    position:absolute;
+    top: 80.6%;
+    left:20%;
+}
+
+
 
