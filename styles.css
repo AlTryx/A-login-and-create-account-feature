@@ -12,18 +12,40 @@ ul {
     display: flex;
     /* Optional: Align items in the center */
     justify-content: center;
+    position: absolute;
+    right: 40px;
+    top:40px;
 }
 
 ul li {
-    margin-right: 20px; /* Adjust spacing between list items */
+    position: relative;
+    margin-right: 40px; /* Adjust spacing between list items */
 }
 ul li a {
     text-decoration: none;
+    color: inherit;
+    outline: none;
+    font-size:large;
 }
 
-nav { 
+
+
+.hover-div{ 
+    background: rgb(74, 74, 182);
+    height: 2px;
+    width: 0px;
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+ul li:hover .hover-div {
+    width: 100%;
 
 }
+
+
 
 
 
@@ -38,6 +60,7 @@ nav {
     backdrop-filter: blur(5px);
     border-radius: 4%;
     border: 1px solid black;
+    font-size: large;
 }
 
 .line {
